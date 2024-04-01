@@ -15,7 +15,7 @@
     margin: 0.3rem;
     text-transform: capitalize;
     backgound-color: transparent;
-    color: var(--color-accent);
+    color: var(--color-bg-dark);
     opacity: 0.8;
     font-weight: bold;
 }
@@ -29,5 +29,5 @@
     content: "";
     display: block;
     margin-top: 0.1rem;
-    border: 1px solid var(--color-accent);
+    border: 1px solid var(--color-bg-dark);
 }
