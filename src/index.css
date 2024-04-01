@@ -3,7 +3,7 @@
     --color-bg-dark: #627254;
     --color-grey: #d1d1d1;
     --color-text: #304d30;
-    --color-accent: #eee7da;
+    --color-accent: #627254;
     --color-light-green: #b6c4b6;
     --color-light-white: #dddddd;
 }
@@ -24,6 +24,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    accent-color: var(--color-accent);
     font-size: 1.2rem;
     background: var(--color-bg);
 }
