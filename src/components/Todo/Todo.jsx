@@ -7,7 +7,7 @@ export default function Todo({todo, onUpdate, onDelete}) {
     const status = e.target.checked ? 'completed' : 'active';
     onUpdate({...todo, status})
   }
-  const handleClick = () => onDelete(todo);
+  const handleDelete = () => onDelete(todo);
   return (
     <li>
       <input 
@@ -17,7 +17,7 @@ export default function Todo({todo, onUpdate, onDelete}) {
         onChange={handleChange}
       />
       <label htmlFor='checkbox'>{text}</label>
-      <button onClick={handleClick}><IoMdTrash /></button>
+      <button onClick={handleDelete}><IoMdTrash /></button>
     </li>
   );
 }
