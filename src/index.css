@@ -8,6 +8,16 @@
     --color-light-white: #dddddd;
 }
 
+html.dark {
+    --color-bg: #304d30;
+    --color-bg-dark: #000000;
+    --color-grey: #1c1c1c;
+    --color-text: #ffffff;
+    --color-accent: #627254;
+    --color-light-green: hsl(120, 15.3%, 42.2%);
+    --color-light-white: #2f2f2f;
+}
+
 * {
     box-sizing: border-box;
 }
